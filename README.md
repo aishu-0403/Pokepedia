@@ -2,6 +2,10 @@
 
 Pokepedia is a web application that allows users to browse and view details of Pokémon using HTML, CSS and JavaScript. It features a user-friendly interface to explore Pokémon stats, types, and related details, powered by a backend API and a MongoDB database.
 
+# Working Video-Localhost implementation
+
+## https://drive.google.com/file/d/1zKJNLgXLtbW1sLa-GX9KO-gl8xYZEpLz/view?usp=sharing
+
 ## Features
 
 - **Frontend:** Interactive and responsive UI to display Pokémon data.
@@ -54,9 +58,10 @@ cd pokepedia
    ```bash
    npm install
    ```
-3. Start the backend server:
+3. Seed the database and start the backend server:
    ```bash
-   node app.js
+   node db/seed.js
+   node server.js
    ```
 
 ### 3. Frontend Setup
