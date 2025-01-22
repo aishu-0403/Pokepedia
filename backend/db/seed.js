@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const axios = require('axios');
 const Pokemon = require('../models/Pokemon');
 
-mongoose.connect('mongodb://localhost:27017/pokemonDB', {
+mongoose.connect('mongodb+srv://aiswarya2111025:MaTaAdNa2022%23@cluster0.dhmtg.mongodb.net/pokemon?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
