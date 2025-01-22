@@ -2,9 +2,13 @@
 
 Pokepedia is a web application that allows users to browse and view details of Pokémon using HTML, CSS and JavaScript. It features a user-friendly interface to explore Pokémon stats, types, and related details, powered by a backend API and a MongoDB database.
 
+# Deployment
+
+## https://pokepedia-website.onrender.com/
+
 # Working Video-Localhost implementation
 
-## https://drive.google.com/file/d/1zKJNLgXLtbW1sLa-GX9KO-gl8xYZEpLz/view?usp=sharing
+https://drive.google.com/file/d/1zKJNLgXLtbW1sLa-GX9KO-gl8xYZEpLz/view?usp=sharing
 
 ## Features
 
@@ -21,10 +25,11 @@ Pokepedia is a web application that allows users to browse and view details of P
 pokepedia/
 │
 ├── backend/                # Backend code
-│   ├── models/             # Mongoose models
-│   ├── routes/             # API routes
-│   ├── app.js              # Main backend application file
-│   └── package.json        # Backend dependencies and scripts
+│   ├── models/Pokemon.js                  # Mongoose models
+│   ├── routes/PokemonRoutes.js            # API routes
+│   ├── db/seed.js                         # Seeding database from server
+│   ├── server.js                          # Main backend application file
+│   └── package.json                       # Backend dependencies and scripts
 │
 ├── frontend/               # Frontend code
 │   ├── index.html          # Homepage
@@ -98,28 +103,11 @@ cd pokepedia
 
 
 ---
-Deployed in localhost. Attached a video showing the working in pokem.mp4
+Deployed backend and frontend using Render.com. Changes in code for deployment is shown in deployment branch.
+Backend database is seeded in MongoDB Atlas Cluster.
 
+Main branch is code used to run in localhost. Attached a video showing the working in pokem.mp4
 
----
-## Contributing
-
-Contributions are welcome! Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature-name"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
 
 ---
 
