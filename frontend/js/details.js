@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/api/pokemon';
+const API_URL = 'https://pokepedia-3z1n.onrender.com/api/pokemon';
 const pokemonDetails = document.getElementById('pokemonDetails');
 const similarPokemon = document.getElementById('similarPokemon');
 
